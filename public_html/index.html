@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Micro Project - JPDB</title>
+    <link rel="stylesheet"
+href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script
+src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <style>
+    .flex-center-container {
+      display: flex;
+      justify-content: center;
+    }
+    .btn{
+      margin: 1rem 1rem;
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+    <h2 class="text-center">Project Management Form</h2>
+<form id="empForm" method="post">
+<div class="form-group">
+<label for="prjId">Project ID:</label>
+<input type="text" class="form-control" name="prjId" id="prjId"
+placeholder="Enter Project ID" onchange="getProject();" required>
+</div>
+<div class="form-group">
+<label for="prjName">Project Name:</label>
+<input type="text" class="form-control" id="prjName"
+placeholder="Enter Project Name" name="prjName">
+</div>
+<div class="form-group">
+<label for="assignedTo">Assigned to:</label>
+<input type="text" class="form-control" id="assignedTo"
+placeholder="Assigned to" name="assignedTo">
+</div>
+<div class="form-group">
+<label for="assignDate">Assignment date:</label>
+<input type="date" class="form-control" id="assignDate"
+placeholder="Assignment date:" name="assignDate">
+</div>
+<div class="form-group">
+<label for="deadline">Deadline:</label>
+<input type="date" class="form-control" id="deadline"
+placeholder="Deadline" name="deadline">
+</div>
+<div class="flex-center-container"> 
+  <input type="button" class="btn btn-primary mb-3" id="prjSave" value="Save" disabled
+onclick="saveProject();">
+  <input type="button" class="btn btn-primary mb-3" id="prjUpdate" value="Update" disabled
+onclick="updateProject();">
+  <input type="button" class="btn btn-primary mb-3 " id="reset" value="Reset" disabled
+onclick="resetForm();">
+</div>
+</form>
+</div>
+    <script src="http://login2explore.com/jpdb/resources/js/0.0.4/jpdb-commons.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
