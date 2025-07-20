@@ -37,7 +37,7 @@ gurusewak-singh-micro-project-l2e/
 
 <h2>🔗 API Configuration</h2>
 <ul>
-  <li><strong>Token:</strong> <code>90934975|-31949250759238360|90959568</code></li>
+  <li><strong>Token:</strong> <code>YOUR_JDPD_CONNECTION_TOKEN</code></li>
   <li><strong>Database:</strong> <code>COLLEGE-DB</code></li>
   <li><strong>Table (Relation):</strong> <code>PROJECT-TABLE</code></li>
   <li><strong>Base URL:</strong> <code>http://api.login2explore.com:5577</code></li>
@@ -72,7 +72,7 @@ saveRecord2LS()    → Stores record ID in localStorage
 <p>
 <strong>Gurusewak Singh</strong><br>
 B.Tech | Full Stack Developer | DSA & Web Dev Enthusiast<br>
-<a href="https://www.linkedin.com/" target="_blank">🔗 LinkedIn</a> (add your real link here)
+<a href="https://www.linkedin.com/in/gurusewak122" target="_blank">🔗 linkedin.com/in/gurusewak122</a>
 </p>
 
 <h2>📄 License</h2>
