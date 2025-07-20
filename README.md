@@ -57,7 +57,7 @@ This micro-project demonstrates a client-side app that interacts with JsonPowerD
 <h2>📸 Illustration</h2>
 <p>UI Preview (form screenshot or mockup goes here)</p>
 
-<img src="https://via.placeholder.com/700x400?text=Project+Form+Screenshot" alt="Project Form Screenshot" />
+<img src="https://drive.google.com/file/d/1-8q5de2dpYKoFxM-MfPerLlxe2JV8ReT/view?usp=sharing" alt="Project Form Screenshot" />
 
 ---
 
